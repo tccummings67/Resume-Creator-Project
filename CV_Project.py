@@ -23,7 +23,7 @@ document.add_paragraph(
     fname + ' ' + lname + '  |  ' + phone_number + '  |  ' + email)
 
 # about me
-document.add_heading('About me')
+document.add_heading('About Me')
 about_me = input('Tell me about yourself. ')
 document.add_paragraph(about_me)
 
@@ -31,7 +31,7 @@ document.add_paragraph(about_me)
 document.add_heading('Work Experience')
 p = document.add_paragraph()
 
-company = input('Enter current company ')
+company = input('Enter your current company ')
 from_date = input('From Date ')
 to_date = input('To Date ')
 
